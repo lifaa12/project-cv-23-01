@@ -1,15 +1,56 @@
+/* utility */
+.d-f{
+    display: flex;
+}
+.mb15{
+    margin-bottom: 15px;
+}
+/* utility end */
+body{
+    font-family: 微軟正黑體;
+}
 .wrap{
     width: 1024px;
+    margin: 0 auto;
+    position: relative;
 }
 .header-img{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     z-index: -1;
+    width: 100%;
+}
+.header-detail{
+    margin: 0px 326px 0px 135px;
+    padding-top: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+    border: 1px solid #000;
 }
 .photo img{
     width: 150px;
     height: 150px;
     border-radius: 150px;
+}
+.photo h2{
+    font-size: 42px;
+    text-align: center;
+    margin-top: 12px;
+}
+.photo p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 9px;
+}
+.details{
+    color: #fff;
+    font-size: 18px;
+}
+.details i{
+    font-size: 30px;
+    margin-right: 12px;
 }
