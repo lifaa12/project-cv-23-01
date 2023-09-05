@@ -2,12 +2,22 @@
 .d-f{
     display: flex;
 }
+.s-b{
+    justify-content: space-between;
+}
+.s-a{
+    justify-content: space-around;
+}
 .mb15{
     margin-bottom: 15px;
 }
 /* utility end */
+*,*:before,*:after{
+    box-sizing: border-box;
+}
 body{
     font-family: 微軟正黑體;
+    background: #FAFAFA;
 }
 .wrap{
     width: 1024px;
@@ -28,11 +38,15 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.photo{
-    border: 1px solid #000;
+.header a{
+    text-decoration: none;
+    color: #fff;
+}
+.header a:hover{
+    color: #ffffffd8;
 }
 .photo img{
-    width: 150px;
+    width: 140px;
     height: 150px;
     border-radius: 150px;
 }
@@ -53,4 +67,77 @@ body{
 .details i{
     font-size: 30px;
     margin-right: 12px;
+}
+.skills{
+    margin-top: 132px;
+}
+.skills h2{
+    font-size: 24px;
+    color: #1736DC;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+.skills-item>div{
+    width: 284px;
+    border: 1px solid #00000020;
+    border-radius: 10px;
+    background: #fff;
+    text-align: center;
+    padding: 25px 43px ;
+}
+.skills-item>div>h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 23px;
+    margin-bottom: 26px;
+}
+.skills-item>div>ul{
+    list-style: disc;
+    text-align: left;
+    line-height: 18px;
+    font-size: 10px;
+}
+.skills-item .web{
+    border-bottom: 10px solid #F58D23;
+}
+.skills-item .js{
+    border-bottom: 10px solid #539E43;
+}
+.skills-item .dev{
+    border-bottom: 10px solid #6762A6 ;
+}
+.timetree{
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid #000; */
+    position: relative;
+}
+.timetree img{
+    display: block;
+}
+.timeline{
+    width: 2px;
+    height: 510px;
+    background: #D8D8D8 ;
+    /* position: absolute; */
+    z-index: -1;
+}
+.timetree-d1{
+    position: absolute;
+    top: 85px;
+}
+.timetree-d2{
+    position: absolute;
+    top: 228px;
+}
+.timetree-d3{
+    position: absolute;
+    top: 400px;
+}
+.timetree-end{
+    width: 46px;
+    height: 4px;
+    background: #D8D8D8;
+
 }
