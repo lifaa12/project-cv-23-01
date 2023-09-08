@@ -11,6 +11,27 @@
 .mb15{
     margin-bottom: 15px;
 }
+/* timetree-item */
+.ti-1{
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.ti-2{
+    font-size: 12px;
+    color: #8A1737;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.ti-3{
+    font-size: 12px;
+    color: #4A4A4A;
+    margin-bottom: 10px;
+}
+.ti-4{
+    font-size: 10px;
+    color: #9B9B9B;
+}
 /* utility end */
 *,*:before,*:after{
     box-sizing: border-box;
@@ -107,6 +128,14 @@ body{
 .skills-item .dev{
     border-bottom: 10px solid #6762A6 ;
 }
+.exp h2{
+    font-size: 24px;
+    color: #1736DC;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 56px;
+    margin-bottom: 48px;
+}
 .timetree{
     flex-direction: column;
     align-items: center;
@@ -118,7 +147,7 @@ body{
 }
 .timeline{
     width: 2px;
-    height: 510px;
+    height: 550px;
     background: #D8D8D8 ;
     /* position: absolute; */
     z-index: -1;
@@ -140,4 +169,35 @@ body{
     height: 4px;
     background: #D8D8D8;
 
+}
+.timetree-i1{
+    width: 260px;
+    padding: 10px;
+    border: 1.5px solid #FB56BF;
+    border-radius: 5px;
+    position: absolute;
+    top: 85px;
+    right: 200px;
+    line-height: 18px;
+}
+.timetree-i2{
+    width: 260px;
+    padding: 10px;
+    border: 1.5px solid #FB56BF;
+    border-radius: 5px;
+    position: absolute;
+    top: 228px;
+    left: 200px;
+    line-height: 18px;
+    text-align: right;
+}
+.timetree-i3{
+    width: 260px;
+    padding: 10px;
+    border: 1.5px solid #FB56BF;
+    border-radius: 5px;
+    position: absolute;
+    top: 400px;
+    right: 200px;
+    line-height: 18px;
 }
