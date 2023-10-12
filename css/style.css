@@ -201,3 +201,47 @@ body{
     right: 200px;
     line-height: 18px;
 }
+/* !待加入boxshadow */
+.wi1-c{
+    background: #fdb4e3;
+}
+.wi2-c{
+    background: #424242;
+}
+.wi3-c{
+    background: #8AD7FA;
+}
+.works h2{
+    font-size: 24px;
+    color: #FB56BF;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 46px;
+}
+.worksitem li{
+    width: 284px;
+}
+.worksitem .wi-u{
+    text-align: center;
+    padding: 35px 102px;
+    border-radius: 10px 10px 0 0;
+}
+.worksitem .wi1-u{
+    padding: 35px 0  0 80px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+.worksitem .wi-d{
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    padding: 9px 95px 9px 8px;
+}
+.worksitem .wi-d h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.worksitem .wi-d p{
+    font-size: 14px;
+}
